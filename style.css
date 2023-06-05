@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+#logo{
+    margin: 3.125rem 0 0 3.125rem;
+}
+
+#title-superiormenu{
+    margin-left: 9.375rem;
+    margin-top: 3.125rem;
+}
+
+#text-superiormenu{
+    margin-left: 9.375rem;
+    margin-top: 2.188rem;
+}
+
+#superiorMenu{
+    background-image: url(Assets/background\ superior\ menu.svg);
+    color: aliceblue;
+    padding-bottom: 6.25rem;
+}
+
+#informationMenu{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icon{
+    margin: 3.125rem 0rem 3.125rem 6.25rem;
+    padding: 1.563rem;
+}
+
+.informationText{
+    display: flex;
+    align-items: center;
+}
+
+#videoSection{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#videoTitle{
+    color: #247BA0;
+    margin-top: 3.125rem;
+}
+
+#video{
+    margin: 3.125rem 1.563rem 3.125rem 6.25rem;
+}
+
+#carosel{
+    background-color: #247BA0;
+    padding: 3.125rem;
+}
+
+#caroselTitle{
+    color: white;
+    text-align: center;
+    font-size: 1.563rem;
+}
+
+#divCards{
+    margin-top: 1.563rem;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 3.125rem;
+}
+
+#leftArrow{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.arrow{
+    margin-top: 125%;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    transform:translateY(-0.438rem);
+    transition-duration: 0.2s;
+}
+
+#forms {
+    text-align: center;
+}
+
+#formsTitle {
+    font-size: 1.563rem;
+    margin: 1.563rem;
+    color: #383838;
+}
+
+input{
+    width: 18.75rem;
+    height: 2.5rem;
+    background-color: #EAECE5;
+    margin: 0.938rem;
+    border: 0rem;
+    border-radius: 0.313rem;
+    padding-left: 0.625rem;
+}
+
+button{
+    background-color: #247BA0;
+    height: 2.5rem;
+    width: 15.625rem;
+    color: #EAECE5;
+    border: 0rem;
+    border-radius: 0.313rem;
+    margin-bottom: 3.125rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-0.438rem);
+    box-shadow: 0rem 0.938rem 1.25rem #05103081;
+    transition-duration: 0.5s;
+}
